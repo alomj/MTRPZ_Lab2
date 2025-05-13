@@ -18,8 +18,8 @@ class TestArrayLinkedList(unittest.TestCase):
         ll = ArrayLinkedList()
         ll.append("A")
         ll.insert("B", 0)
-        self.assertEqual(ll.get(0), "A")
-        self.assertEqual(ll.get(1), "B")
+        self.assertEqual(ll.get(0), "B")
+        self.assertEqual(ll.get(1), "A")
 
     def test_insert_invalid_index(self):
         ll = ArrayLinkedList()
